@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width:100%;
+    height:100vh;
+    background: url('../image/birthday.webp') ;
+    background-size: cover;
+}
+
+h2{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Titan One', sans-serif;
+    text-align: center;
+    font-size: 4.5rem;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    color:white;
+    background: rgba(238, 211, 238, 0.44);
+}
+
+.title{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.col{
+    justify-content: center;
+    width: 1000px;
+    height: 100px;
+    margin: 30px auto;
+    display:flex;
+    
+}
+
+.col div{
+   width: 100px;
+    text-align: center;
+}
+
+input{
+    width:70px;
+    height:70px;
+    display:block;
+    background-color: white;
+    border-color: transparent;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    ;
+    
+}
